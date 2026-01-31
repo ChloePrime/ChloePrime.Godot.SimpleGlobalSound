@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://beb7vbe0x8bom"
-path="res://.godot/imported/example_sound.ogg-e7735a18c669940d70232ea98c8b49b8.oggvorbisstr"
+path="res://.godot/imported/example_sound.ogg-2e2217a7fe5227b72f6bd0d671264d0d.oggvorbisstr"
 
 [deps]
 
-source_file="res://example_sound.ogg"
-dest_files=["res://.godot/imported/example_sound.ogg-e7735a18c669940d70232ea98c8b49b8.oggvorbisstr"]
+source_file="res://addons/ChloePrime.Godot.SimpleGlobalSound/example_sound.ogg"
+dest_files=["res://.godot/imported/example_sound.ogg-2e2217a7fe5227b72f6bd0d671264d0d.oggvorbisstr"]
 
 [params]
 
