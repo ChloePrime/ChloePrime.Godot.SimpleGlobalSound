@@ -1,0 +1,11 @@
+*
+!.gitignore
+
+!*.cs
+!*.gd
+!*.uid
+
+!*.tscn
+
+!*.ogg
+!*.import

@@ -1,0 +1,47 @@
+[gd_scene format=3 uid="uid://cr7btpdmn1xlw"]
+
+[ext_resource type="Script" uid="uid://bcpgft6hafyhc" path="res://GlobalOneShotAudioStreamPlayer.cs" id="1_2jas5"]
+[ext_resource type="Script" uid="uid://d0cwew2r4mq4d" path="res://example.gd" id="1_n51mc"]
+[ext_resource type="AudioStream" uid="uid://beb7vbe0x8bom" path="res://example_sound.ogg" id="3_8lvy3"]
+
+[node name="Example Usage of ChloePrime_Godot_SimpleGlobalSound" type="Control" unique_id=1521387588]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_n51mc")
+audio_stream = ExtResource("3_8lvy3")
+
+[node name="GlobalOneShotAudioStreamPlayer" type="Node" parent="." unique_id=1971711682]
+script = ExtResource("1_2jas5")
+Stream = ExtResource("3_8lvy3")
+metadata/_custom_type_script = "uid://bcpgft6hafyhc"
+
+[node name="Usage" type="Label" parent="." unique_id=1083176869]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 32
+text = "Press Space or Enter to play sound."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Credits" type="Label" parent="." unique_id=1399014055]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = -50.0
+offset_bottom = -1.0
+grow_horizontal = 2
+pivot_offset_ratio = Vector2(0.5, 1)
+text = "example_sound.ogg cames from 'RPG sounds by Kenney Vleugels'
+(https://opengameart.org/content/50-rpg-sound-effects)"
+horizontal_alignment = 1
+vertical_alignment = 2
+
+[connection signal="space_key_pressed" from="." to="GlobalOneShotAudioStreamPlayer" method="Play"]
