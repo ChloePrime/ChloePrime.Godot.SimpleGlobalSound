@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://cr7btpdmn1xlw"]
 
-[ext_resource type="Script" uid="uid://bcpgft6hafyhc" path="res://GlobalOneShotAudioStreamPlayer.cs" id="1_2jas5"]
-[ext_resource type="Script" uid="uid://d0cwew2r4mq4d" path="res://example.gd" id="1_n51mc"]
-[ext_resource type="AudioStream" uid="uid://beb7vbe0x8bom" path="res://example_sound.ogg" id="3_8lvy3"]
+[ext_resource type="Script" uid="uid://bcpgft6hafyhc" path="res://addons/ChloePrime.Godot.SimpleGlobalSound/GlobalOneShotAudioStreamPlayer.cs" id="1_2jas5"]
+[ext_resource type="Script" uid="uid://d0cwew2r4mq4d" path="res://addons/ChloePrime.Godot.SimpleGlobalSound/example.gd" id="1_n51mc"]
+[ext_resource type="AudioStream" uid="uid://beb7vbe0x8bom" path="res://addons/ChloePrime.Godot.SimpleGlobalSound/example_sound.ogg" id="3_8lvy3"]
 
 [node name="Example Usage of ChloePrime_Godot_SimpleGlobalSound" type="Control" unique_id=1521387588]
 layout_mode = 3
