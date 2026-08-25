@@ -4,8 +4,7 @@ using Godot;
 namespace ChloePrime.Godot.SimpleGlobalSound;
 
 [GlobalClass]
-public partial class GlobalOneShotAudioStreamPlayer : Node
-{
+public partial class GlobalOneShotAudioStreamPlayer : Node {
     /// <summary>
     /// <para>The <see cref="Godot.AudioStream"/> resource to be played. Setting this property stops all currently playing sounds. If left empty, the <see cref="Godot.AudioStreamPlayer"/> does not work.</para>
     /// </summary>
@@ -35,8 +34,7 @@ public partial class GlobalOneShotAudioStreamPlayer : Node
     /// <summary>
     /// <para>Plays a sound from the beginning, The played sound will not get stopped when this node is freed.</para>
     /// </summary>
-    public void Play()
-    {
+    public void Play() {
         Stream.Play(VolumeDb, PitchScale, Bus);
     }
 }
